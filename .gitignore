@@ -1,0 +1,5 @@
+.idea
+build/
+scripts/
+node_modules/
+run.sh

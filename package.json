@@ -1,0 +1,32 @@
+{
+  "name": "@thedxnetwork/dx-contracts",
+  "version": "0.1.0",
+  "description": "Ethereum smart contracts for the DX Network",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thedxnetwork/dx-contracts.git"
+  },
+  "author": "The DX Network <info@dx.network>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/thedxnetwork/dx-contracts/issues"
+  },
+  "main": "truffle.js",
+  "scripts": {
+    "compile": "truffle compile",
+    "test": "truffle test",
+    "migrate": "truffle migrate",
+    "develop": "truffle develop"
+  },
+  "devDependencies": {
+    "bip39": "^2.5.0",
+    "eth-lib": "^0.2.8",
+    "ethereumjs-wallet": "^0.6.2",
+    "truffle": "beta",
+    "web3": "^1.0.0-beta.36"
+  },
+  "engines": {
+    "node": ">=10.13.0"
+  },
+  "dependencies": {}
+}
